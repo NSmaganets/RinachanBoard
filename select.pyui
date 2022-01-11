@@ -1,0 +1,177 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{26, 73}, {243, 201}}",
+        "class" : "TableView",
+        "attributes" : {
+          "uuid" : "25EC0238-EA4F-45DF-842B-0156DCBC3BD3",
+          "editing" : false,
+          "data_source_action" : "self.yy",
+          "corner_radius" : 1,
+          "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "frame" : "{{60, 140}, {200, 200}}",
+          "data_source_items" : "↓音源選択",
+          "data_source_number_of_lines" : 0,
+          "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "border_width" : 1,
+          "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "data_source_move_enabled" : false,
+          "data_source_delete_enabled" : false,
+          "data_source_font_size" : 15,
+          "row_height" : 35,
+          "class" : "TableView",
+          "name" : "tableview1",
+          "flex" : "HB"
+        },
+        "selected" : true
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{58, 11}, {80, 54}}",
+        "class" : "Button",
+        "attributes" : {
+          "uuid" : "538EC2FB-0747-4159-86C4-8E4C98E7D4BB",
+          "font_size" : 15,
+          "background_color" : "RGBA(1.055556,1.055556,1.055556,1.000000)",
+          "frame" : "{{120, 224}, {80, 32}}",
+          "tint_color" : "RGBA(0.009515,0.009515,0.551887,1.000000)",
+          "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "title" : "start",
+          "action" : "self.r",
+          "font_bold" : true,
+          "class" : "Button",
+          "name" : "button1",
+          "flex" : "B"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{26, 334}, {243, 200}}",
+        "class" : "TableView",
+        "attributes" : {
+          "uuid" : "B1CEA43E-6B97-4754-913B-F89BB5E03A41",
+          "data_source_action" : "self.zz",
+          "corner_radius" : 1,
+          "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "frame" : "{{60, 140}, {200, 200}}",
+          "data_source_items" : "↓スクリプト選択",
+          "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "data_source_number_of_lines" : 1,
+          "border_width" : 1,
+          "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "data_source_delete_enabled" : false,
+          "data_source_font_size" : 15,
+          "row_height" : 35,
+          "class" : "TableView",
+          "name" : "tableview2",
+          "flex" : "HT"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{178, 11}, {80, 54}}",
+        "class" : "Button",
+        "attributes" : {
+          "uuid" : "765074B1-EC01-4C14-A591-6808F860AF2E",
+          "name" : "button2",
+          "flex" : "B",
+          "corner_radius" : 0,
+          "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "frame" : "{{120, 224}, {80, 32}}",
+          "tint_color" : "RGBA(0.000000,0.563679,0.187893,1.000000)",
+          "border_width" : 1,
+          "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "title" : "",
+          "action" : "self.go",
+          "font_bold" : false,
+          "class" : "Button",
+          "image_name" : "iob:checkmark_circled_32",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{284, 36}, {250, 29}}",
+        "class" : "SegmentedControl",
+        "attributes" : {
+          "action" : "self.segment",
+          "flex" : "WB",
+          "segments" : "0|1|2|3",
+          "frame" : "{{210, 256}, {120, 29}}",
+          "class" : "SegmentedControl",
+          "uuid" : "9F0687FE-C9DB-4106-A154-C6BFB7E1BBE8",
+          "name" : "selectmode"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{284, 73}, {250, 39}}",
+        "class" : "TextField",
+        "attributes" : {
+          "flex" : "WB",
+          "name" : "textfield1",
+          "frame" : "{{170, 254}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "E3B3A717-21F0-4185-BC5E-559A84CDA058",
+          "alignment" : "center",
+          "text" : "Ver.2.9.4",
+          "autocorrection_type" : "default",
+          "font_size" : 17,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{284, 120}, {250, 407}}",
+        "class" : "TextView",
+        "attributes" : {
+          "uuid" : "8ED47606-C630-4C81-9FFC-A16DF238B95C",
+          "font_size" : 17,
+          "frame" : "{{170, 170}, {200, 200}}",
+          "editable" : false,
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "text" : "Press “start” to find and select files.",
+          "font_name" : "<System>",
+          "spellchecking_type" : "default",
+          "class" : "TextView",
+          "name" : "textview1",
+          "flex" : "WB"
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {540, 540}}",
+    "class" : "View",
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,0.851852,0.777778,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
